@@ -8,10 +8,11 @@ end
 
 def argue(x)
   puts x
+  x
 end
 
-def greeting()
-
+def greeting(str1, str2)
+  str1 + str2
 end
 
 def return_a_value
