@@ -15,14 +15,14 @@ def greeting(str1, str2)
   str1 + str2
 end
 
-def return_a_value
-
+def return_a_value(val)
+  val
 end
 
 def last_evaluated_value
-
+  
 end
 
-def pizza_party
-
+def pizza_party(topping = "cheese")
+  topping
 end
