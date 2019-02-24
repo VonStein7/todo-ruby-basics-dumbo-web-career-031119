@@ -15,8 +15,9 @@ def greeting(str1, str2)
   str1 + str2
 end
 
-def return_a_value(val)
-  return val
+def return_a_value
+  val = "Nice"
+  val
 end
 
 def last_evaluated_value
